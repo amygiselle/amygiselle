@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#index {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(29, 28, 47);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h1:hover {
+    color: darkorange !important;
+    transform: scale(1.5);
+}
+
+h1:hover > img{
+    transform: rotate(45deg);
+  }
+
+.p-title:hover {
+    color: darkorange !important;
+    transform: scale(1.25);
+}
+
+.container-navbar {
+    background-color: darkorange;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: bold;
+    transform: scale(1.25) !important;
+}
+
+.navbar:hover > .img-1{
+    transform: rotate(45deg);
+}
+
+.navbar:hover > .img-2{
+    transform: rotate(-45deg);
+}
+
+.div-card-title {
+    background-color: darkorange !important;
+}
+
+.hd-card-title {
+    height: 4rem;
+    margin-bottom: 24px;
+    background-color: darkorange !important;
+}
+
+.h3-card-text {
+    font-size: 2rem;
+}
+
+.h3-card-text:hover {
+    color: black !important;
+    transform: scale(1.25) !important;
+    font-weight: bold;
+}
+
+h3:hover > img {
+    transform: rotate(45deg);
+}
+
+.div-button {
+    background-color: rgb(29, 28, 47) !important;
+}
+
+.btn-outline-dark {
+    border-color: darkorange;
+    color: darkorange;
+}
+
+.btn-outline-dark:hover {
+    background-color: darkorange;
+    border: none;
+    color: black;
+}
+
+.container {
+    background-color: rgb(29, 28, 47) !important;
+    border-left: 55px solid rgb(29, 28, 28);
+    border-right: 55px solid rgb(20, 20, 19);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.card {
+   
+}
+
+.card:hover {
+    background-color: rgb(237, 243, 238);
+    color: rgb(27, 26, 26);
+    border: none;
+}
+
+.card-img-top {
+    height: 350px;
+    width: auto;
+}
+
+.btn-secondary {
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: black;
+    border: none;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    background-color: rgb(28, 47, 28);
+}
+
+.modal-body {
+    color: white;
+    background-color: #6c757d;
+}
+
+.modal-footer {
+    background-color: white;
+}
+
+form {
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 2em;
+}
+  
+label {
+    display: block;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+legend {
+    margin: 25px 0 0 0;
+    text-align: center;
+}
+
+input[type="text"], [type="email"], [type="number"],
+#comentario,
+#genero {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: rgb(229, 235, 231);
+    color: white;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+#genero:hover,
+#comentario:hover {
+    background-color: white;
+    color: black;
+}
+
+button {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2.2em;
+    font-size: 1rem;
+    min-width: 150px;
+}   
+
+#comentario {
+    height: 65px;
+}
+
+fieldset {
+    margin: 0 0 15px 0;
+}
+  
+
+.foot {
+    height: 3rem;
+    margin-bottom: 24px;
+    background-color: rgb(29, 28, 47) !important;
+}
+
+.foot-text:hover {
+    transform: scale(1.25);
+}
+
+.foot-text:hover > img {
+    transform: rotate(45deg);
+}
